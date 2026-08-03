@@ -51,10 +51,10 @@ while giveInfo.lower() == "yes":
     topic = input()
 
     if topic.lower() == "a":
-        print("") 
+        print("Teh breach mainly affected confidentiality because hackers gained unauthorized access to users' personal information. Availability was also affected because Sony shut down the PlatStation Network, preventing users from using it. There is less evidence that integrity was affected because it is unclear whether the hackers changed any information.") 
 
     elif topic.lower() == "b":
-        print("Sony shut down the PlayStation Network in ")
+        print("I was shocked that such a well-known technology company")
 
     elif topic.lower() == "c":
         break
