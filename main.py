@@ -11,8 +11,18 @@ print("Nice to meet you " + userName)
 
 # Recounts year of breach
 print("The breach occurred in " + str(breachYear) + ".")
-timePassed = int(todaysYear) - breachYear
-print("Wow! That means it has been " + str(timePassed) + )
+while True:
+    try:
+        todaysYear = int(input("What year is it now?\n"))
+        if todaysYear < breachYear:
+            print("Please enter " + str(breachYear) + " or a later year.")
+            continue
+        break
+    except ValueError:
+        print("Please enter a year using numbers, such as 2026.")
+
+timePassed = todaysYear - breachYear
+print("Wow! That means it has been " + str(timePassed) + " years.")
 
 
 
@@ -38,7 +48,7 @@ while giveInfo.lower() == "yes":
     else:
         print("Sorry, I didn't catch that. Choose one of the options listed.")
 
-    input("Press enter to continue\n")
+    input("Press Enter to continue\n")
 
 # Introduces my take
 print("\nI'm excited to share my perspective with you. Are you ready to hear my take?")
@@ -51,13 +61,13 @@ while giveInfo.lower() == "yes":
     topic = input()
 
     if topic.lower() == "a":
-        print("Teh breach mainly affected confidentiality because hackers gained unauthorized access to users' personal information. Availability was also affected because Sony shut down the PlatStation Network, preventing users from using it. There is less evidence that integrity was affected because it is unclear whether the hackers changed any information.") 
+        print("The breach mainly affected confidentiality because hackers gained unauthorized access to users' personal information. Availability was also affected because Sony shut down the PlayStation Network, preventing users from using it. There is less evidence that integrity was affected because it is unclear whether the hackers changed any information.")
 
     elif topic.lower() == "b":
-        print("I was shocked that such a well-known technology company")
+        print("I was shocked that such a well-known technology company could experience a breach affecting so many people.")
 
     elif topic.lower() == "c":
-        break
+        print("My advice is to use a unique password for every account, enable multi-factor authentication, and watch for suspicious messages after a breach.")
 
     elif topic.lower() == "d":
         break
@@ -65,6 +75,7 @@ while giveInfo.lower() == "yes":
     else:
         print("Sorry, I didn't catch that. Choose one of the options listed.")
 
-    input("Press enter to continue\n")
+    input("Press Enter to continue\n")
 
 # Chatbot ends conversation
+print("Thanks for chatting with Breach Bot!")
