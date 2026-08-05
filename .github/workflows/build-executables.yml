@@ -1,0 +1,33 @@
+name: Build Breach Bot Windows executable
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Download Breach Bot source code
+        uses: actions/checkout@v4
+        with:
+          ref: v1.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyInstaller
+        run: python -m pip install pyinstaller
+
+      - name: Build Breach-Bot-Windows.exe
+        run: python -m PyInstaller --onefile --name Breach-Bot-Windows main.py
+
+      - name: Add executable to existing Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v1.0.0 dist/Breach-Bot-Windows.exe --clobber
