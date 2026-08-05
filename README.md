@@ -6,7 +6,7 @@ Hi there! 👋 This is Breach Bot, an interactive Python chatbot for learning ab
 2011 PlayStation Network data breach. It explains what happened, describes
 Sony's response, and connects the incident to the CIA triad: confidentiality,
 integrity, and availability. It also shares my personal reflection on this topic!
-
+💞
 ## Features
 
 - Greets the user by name
@@ -33,5 +33,5 @@ second menu when you are finished.
 
 ## Creator
 
-Created by [Felicity](https://github.com/Felicity520666). Friendly feedback and
+💕 Created by [Felicity](https://github.com/Felicity520666). Friendly feedback and
 suggestions are welcome! ❤️
