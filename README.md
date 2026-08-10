@@ -1,6 +1,6 @@
 # Breach Bot
 ## About the Project
-This project is an interactive Python chatbot for learning more about the 2011 PlayStation Network date breach. Breach Bot explains what happened, describes Sony's response, and connects the incident to the CIA triad: confidentiality, integrity, and availability! And also, it shares some of my personal reflection on this topic!
+This project is an interactive Python chatbot for learning more about the 2011 PlayStation Network data breach. Breach Bot explains what happened, describes Sony's response, and connects the incident to the CIA triad: confidentiality, integrity, and availability! And also, it shares some of my personal reflection on this topic!
 
 ## Main Features
 - Greets the user by name
