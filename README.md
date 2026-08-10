@@ -8,10 +8,14 @@ This project is an interactive Python chatbot for learning more about the 2011 P
 - Uses simple menus so users can choose what to learn about
 
 ## Language Used
-- Python
+- Python 3
 
 ## Link to Run the Code
 - [Breach Bot](https://github.com/Felicity520666/Breach-Bot/releases/download/v1.0.0/Breach-Bot-Windows.exe)
+
+
+## Instructions 
+Follow the prompts and enter the letter beside your chosen topic. Enter `c` in the first menu to continue to the reflection section, Enter `d` in the second menu when you are finished.
 
 ## Creator
 Created by [Felicity](https://github.com/Felicity520666). Friendly feedback and suggestions are always welcome!
