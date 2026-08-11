@@ -26,6 +26,7 @@ Hello everyone! This project is a simple interactive Python chatbot for learning
 4. Run the program:
 ```bash
 python main.py
+```
 
 ## Link to Run the Code
 - [Breach Bot](https://github.com/Felicity520666/Breach-Bot/releases/download/v1.0.0/Breach-Bot-Windows.exe)
