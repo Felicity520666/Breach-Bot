@@ -8,8 +8,24 @@ Hello everyone! This project is a simple interactive Python chatbot for learning
 - Uses simple menus so users can choose what to learn about
 - Shares my personal reflection and practical sybersecurity advice for users to consider
 
+## Project Screenshot
+![Breach Bot running in the terminal](demo.png)
+
 ## Language Used
 - Python 3
+
+## How to Run the Project Locally
+### Requirements
+- Python 3.10 or newer
+- No third-party packages are required to run Breach Bot
+
+### Instructions
+1. Click the green **Code** button and then select **Download ZIP**.
+2. Unzip the downloaded folder.
+3. Open a terminal in the project folder.
+4. Run the program:
+```bash
+python main.py
 
 ## Link to Run the Code
 - [Breach Bot](https://github.com/Felicity520666/Breach-Bot/releases/download/v1.0.0/Breach-Bot-Windows.exe)
